@@ -221,7 +221,7 @@ clone_itflow() {
     log "Cloning ITFlow"
     show_progress "9. Cloning ITFlow..."
     {
-        git clone https://github.com/itflow-org/itflow.git /var/www/${domain} >> "$LOG_FILE" 2>&1
+        git clone https://github.com/wwtechnologies/splash-psa.git /var/www/${domain} >> "$LOG_FILE" 2>&1
         chown -R www-data:www-data /var/www/${domain}
     } & spin "Cloning ITFlow repository"
     echo -e "${GREEN}ITFlow cloned to /var/www/${domain}.${NC}"
@@ -327,7 +327,7 @@ EOF
 # Welcome Message
 clear
 echo -e "${GREEN}#############################################${NC}"
-echo -e "${GREEN}# Welcome to the ITFlow Installation Script #${NC}"
+echo -e "${GREEN}# Welcome to the Defiant PSA Installation Script #${NC}"
 echo -e "${GREEN}#############################################${NC}"
 echo
 echo -e "${YELLOW}Please follow the prompts to complete the installation.${NC}"
