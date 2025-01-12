@@ -7,7 +7,7 @@ YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
 # Log file path
-LOG_FILE="/var/log/itflow_install.log"
+LOG_FILE="/var/log/defiant_install.log"
 # Clear previous installation log
 rm -f "$LOG_FILE"  # Delete the previous log file
 
