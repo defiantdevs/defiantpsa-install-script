@@ -219,9 +219,9 @@ setup_apache() {
 # Clone ITFlow repository
 clone_itflow() {
     log "Cloning ITFlow"
-    show_progress "9. Cloning ITFlow..."
+    show_progress "9. Cloning Defiant PSA..."
     {
-        git clone https://github.com/wwtechnologies/splash-psa.git /var/www/${domain} >> "$LOG_FILE" 2>&1
+        git clone https://github.com/defiantdevs/Defiant-PSA.git /var/www/${domain} >> "$LOG_FILE" 2>&1
         chown -R www-data:www-data /var/www/${domain}
     } & spin "Cloning ITFlow repository"
     echo -e "${GREEN}ITFlow cloned to /var/www/${domain}.${NC}"
