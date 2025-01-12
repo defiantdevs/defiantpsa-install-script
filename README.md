@@ -1,11 +1,19 @@
+<div id="top"></div>
+
+<!-- PROJECT SHIELDS -->
+[![GPL License][license-shield]][license-url]
+
 <!-- PROJECT LOGO -->
 <div align="center">
+<img src="https://wrightwaytech.com/wp-content/uploads/2025/01/defiantpsa-white-blue.png" alt="Defiant PSA Logo" width="1500" height="150" align="center">
 
-  <h3 align="center">ITFlow</h3>
 
-  <p align="center">
-    IT documentation, ticketing and accounting system for small MSPs.
-    <br />
+  <h1 align="center">Defiant PSA</h1>
+  <h2 align="center">Precursor: We want to give direct credit to IT FLow from which this is forked. Without the work they have done Defiant PSA could not exist!</h2>
+  <h3 align="center">
+    IT Documentation, Ticketing and Accounting System for MSPs with a primary focus on IT Managed Services.
+  </h3>
+</div>
     <br />
     <a href="https://demo.itflow.org"><strong>View demo</strong></a>
     <br />
