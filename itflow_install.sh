@@ -140,7 +140,7 @@ get_domain() {
                 domain=$new_domain
             fi
         else
-            read -p "$(echo -e "${YELLOW}4. Enter your Fully Qualified Domain Name (e.g., itflow.domain.com): ${NC}")" domain
+            read -p "$(echo -e "${YELLOW}4. Enter your Fully Qualified Domain Name (e.g., defiantpsa.domain.com): ${NC}")" domain
         fi
 
         # Validate the domain
