@@ -1,7 +1,6 @@
 <div id="top"></div>
 
 <!-- PROJECT SHIELDS -->
-[![GPL License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <div align="center">
