@@ -38,3 +38,11 @@
 # Install Script to install ITFlow
 
 - Run the script as root
+
+Use the following commands on a frsh install of Debian 12: 
+1. apt install git
+2. git clone https://github.com/defiantdevs/defiantpsa-install-script.git
+3.  cd defiantpsa-install-script
+4.  chmod +x defiantpsa_install.sh
+
+
