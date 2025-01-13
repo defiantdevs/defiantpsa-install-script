@@ -223,7 +223,7 @@ clone_itflow() {
     {
         git clone https://github.com/defiantdevs/Defiant-PSA.git /var/www/${domain} >> "$LOG_FILE" 2>&1
         chown -R www-data:www-data /var/www/${domain}
-    } & spin "Cloning ITFlow repository"
+    } & spin "Cloning Defiant PSA repository"
     echo -e "${GREEN}ITFlow cloned to /var/www/${domain}.${NC}"
 }
 
