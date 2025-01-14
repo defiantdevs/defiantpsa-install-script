@@ -306,11 +306,11 @@ send "Y\r"
 expect eof
 EOF
 
-# Create the database and defiant user
+# Create the database and user
 mysql -u root -p"$MARIADB_ROOT_PASSWORD" -e "
-CREATE DATABASE IF NOT EXISTS defiant CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER IF NOT EXISTS 'defiant'@'localhost' IDENTIFIED BY '${mariadbpwd}';
-GRANT ALL PRIVILEGES ON defiant.* TO 'defiant'@'localhost';
+CREATE DATABASE IF NOT EXISTS itflow CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE USER IF NOT EXISTS 'itflow'@'localhost' IDENTIFIED BY '${mariadbpwd}';
+GRANT ALL PRIVILEGES ON itflow.* TO 'itflow'@'localhost';
 FLUSH PRIVILEGES;" >> "$LOG_FILE" 2>&1
     } & spin "Securing MariaDB and setting up database"
 
