@@ -44,5 +44,6 @@ Use the following commands on a fresh install of Debian 12:
 2. git clone https://github.com/defiantdevs/defiantpsa-install-script.git
 3.  cd defiantpsa-install-script
 4.  chmod +x defiantpsa_install.sh
+5.  ./defiantpsa_install.sh
 
 
